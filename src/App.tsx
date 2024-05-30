@@ -4,6 +4,8 @@ import './App.css';
 
 import Homepage from './Components/Homepage';
 import About from './Components/About';
+import Projects from './Components/Projects';
+
 
 
 
@@ -36,6 +38,14 @@ function App() {
                     <Route
                         path="/"
                         element={<About />}
+                    />
+
+                    {/* This route is for home component 
+          with exact path "/", in component props 
+          we passes the imported component*/}
+                    <Route
+                        path="/"
+                        element={<Projects />}
                     />
  
                     {/* If any route mismatches the upper 
