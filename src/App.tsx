@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 
 import Homepage from './Components/Homepage';
+import About from './Components/About';
+
 
 
 import {
@@ -26,6 +28,14 @@ function App() {
                     <Route
                         path="/"
                         element={<Homepage />}
+                    />
+                    
+                    {/* This route is for home component 
+          with exact path "/", in component props 
+          we passes the imported component*/}
+                    <Route
+                        path="/"
+                        element={<About />}
                     />
  
                     {/* If any route mismatches the upper 
