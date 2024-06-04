@@ -32,11 +32,11 @@ const goToHome = () => {
         <span>Homepage</span>
 
         <div>
-          <ul>
-            <li><Button className="BasicButton" onClick={goToHome}> Home </Button></li>
-            <li><Button className="BasicButton" onClick={goToAbout}> About </Button></li>
-            <li><Button className="BasicButton" onClick={goToProjects}> Survey </Button></li>      
-          </ul>
+          
+            <Button className="BasicButton" onClick={goToHome}> Home </Button>
+            <Button className="BasicButton" onClick={goToAbout}> About </Button>
+            <Button className="BasicButton" onClick={goToProjects}> Projects </Button>      
+          
         </div>
       </div>
 
