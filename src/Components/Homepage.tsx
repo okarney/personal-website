@@ -3,42 +3,28 @@ import '../App';
 import { Button } from 'react-bootstrap';
 //import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+import stars from "./star_background.jpg";
 
 function Homepage() {
   const navigate = useNavigate();
- 
-  const goToAbout = () => {
-
-      // This will navigate to second component
-      navigate('/About');
-  };
-  const goToProjects = () => {
-
-      // This will navigate to first component
-      navigate('/Projects');
-  };
-
-  // the following lines were moved from the "Our Header Function"
-
-const goToHome = () => {
-
-  // This will navigate to second component
-  navigate('/Homepage');
-};
-
     
   return (
-    <div>
-        <span>Homepage hello!!</span>
 
-        <div>
-          
-            <Button className="BasicButton" onClick={goToHome}> Home </Button>
-            <Button className="BasicButton" onClick={goToAbout}> About </Button>
-            <Button className="BasicButton" onClick={goToProjects}> Projects </Button>      
-          
+    <div style={{backgroundImage:`url(${stars})`,
+    backgroundSize: "cover",
+    backgroundPosition:"center",}}>
+
+        <div className="homepage-content">
+              <h1>Olivia Karney</h1>
+              <span>Homepage hello!!</span>
+
+                <Button className="nav-buttons" onClick={() => navigate("/About")}> About </Button>
+                <Button className="nav-buttons" onClick={() => navigate("/Projects")}> Projects </Button>      
+                <Button className="nav-buttons" onClick={() => navigate("/Interests")}> Interests </Button>
+
         </div>
-      </div>
+
+  </div>
 
   );
 }

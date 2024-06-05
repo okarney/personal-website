@@ -7,21 +7,17 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 
 
-
-
 import {
   HashRouter as Router,
   Routes,
   Route,
-  Navigate,
+   Navigate,
 } from "react-router-dom";
-
 
 
 function App() {
   return (
     <>
-            {/* This is the alias of BrowserRouter i.e. Router */}
             <Router>
                 <Routes>
                     {/* This route is for home component 
@@ -36,7 +32,7 @@ function App() {
           with exact path "/", in component props 
           we passes the imported component*/}
                     <Route
-                        path="/"
+                        path="/About"
                         element={<About />}
                     />
 
@@ -44,7 +40,7 @@ function App() {
           with exact path "/", in component props 
           we passes the imported component*/}
                     <Route
-                        path="/"
+                        path="/Projects"
                         element={<Projects />}
                     />
  
@@ -52,10 +48,10 @@ function App() {
           route endpoints then, redirect triggers 
           and redirects app to home component with to="/" */}
                     {/* <Redirect to="/" /> */}
-                    <Route
+                    {/* <Route
                         path="*"
                         element={<Navigate to="/" />}
-                    />
+                    /> */}
                 </Routes>
             </Router>
         </>
