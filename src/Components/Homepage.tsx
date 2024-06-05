@@ -9,33 +9,34 @@ function Homepage() {
  
   const goToAbout = () => {
 
-      // This will navigate to second component
-      navigate('/About');
+      // This will navigate to the about page
+      navigate('https://github.com/');
+      console.log("GOING TO ABOUT!!!!");
+
   };
   const goToProjects = () => {
 
-      // This will navigate to first component
+      // This will navigate to the projects page
       navigate('/Projects');
   };
 
-  // the following lines were moved from the "Our Header Function"
-
 const goToHome = () => {
 
-  // This will navigate to second component
+  // This will navigate to the homepage
   navigate('/Homepage');
 };
 
     
   return (
     <div>
+        <h1>Olivia Karney</h1>
         <span>Homepage hello!!</span>
 
         <div>
           
-            <Button className="BasicButton" onClick={goToHome}> Home </Button>
-            <Button className="BasicButton" onClick={goToAbout}> About </Button>
-            <Button className="BasicButton" onClick={goToProjects}> Projects </Button>      
+            {/* <Button className="BasicButton" onClick={goToHome}> Home </Button> */}
+            <Button className="BasicButton" onClick={() => navigate("/About")}> About </Button>
+            {/* <Button className="BasicButton" onClick={goToProjects}> Projects </Button>       */}
           
         </div>
       </div>

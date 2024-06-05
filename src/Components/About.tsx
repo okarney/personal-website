@@ -1,12 +1,14 @@
 import '../App.css';
-import '../App';
 
 function About() {
  
+  console.log("hello");
     
     return (
-  
-      <span>About Page</span>
+      <div>
+        <span>About Page</span>
+        <h1> HELLO HELLLO</h1>
+      </div>
   
     );
   }
