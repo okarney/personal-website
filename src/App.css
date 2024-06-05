@@ -20,6 +20,36 @@
   color: white;
 }
 
+.homepage {
+  justify-content: center;
+}
+.homepage-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.nav-buttons {
+  /* background-color: #2a67e1;
+  display: flex;
+  padding: 0 10x;
+
+  font-size: calc(10px + 2vmin);
+  color: white; */
+
+  padding: 7x 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1.5px solid #9285aa;
+    border-radius: 20px;
+    color: #645cc1;
+    background:#2b4ccf;
+    box-shadow: 0 2px 15px rgba(115, 96, 201, 0.26);
+    color:#ffffff;
+}
 
 
 
