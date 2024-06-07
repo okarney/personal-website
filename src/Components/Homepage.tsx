@@ -1,6 +1,6 @@
 import '../App.css';
 import '../App';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 //import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import oliviaLogo from "./OliviaLogo.png";
@@ -13,19 +13,39 @@ function Homepage() {
     // <div style={{backgroundImage:`url(${stars})`,
     // backgroundSize: "cover",
     // backgroundPosition:"center",}}>
+      <div className="homepage-content">
+            <div>
+              <br></br>
+            </div>
+            <div className="olivia-logo">
+              <img src = {oliviaLogo} alt = "logo" id = "image" className='fram'/>         
+            </div>
+            <br></br>
+            
+            {/* <div className='button-group'> */}
 
-        <div className="homepage-content">
+            
+            
+            <Container>
+                <Row>
+                    <Col>
+                        <Button className="nav-buttons" onClick={() => navigate("/About")}> About </Button>
+                    </Col>
+                    <Col>
+                        <Button className="nav-buttons" onClick={() => navigate("/Projects")}> Projects </Button>      
+                    </Col>
+                
+                    <Col>
+                        <Button className="nav-buttons" onClick={() => navigate("/Interests")}> Interests </Button>
+                    </Col>
+                    <Col>
+                        <Button className="nav-buttons" onClick={() => navigate("/Resume")}> Resume </Button>
+                    </Col>
+                </Row>
+            </Container>
+            {/* </div> */}
 
-                  <img src = {oliviaLogo} alt = "logo" id = "image" className='fram'/>              <span>Homepage hello!!</span>
-
-                <Button className="nav-buttons" onClick={() => navigate("/About")}> About </Button>
-                <Button className="nav-buttons" onClick={() => navigate("/Projects")}> Projects </Button>      
-                <Button className="nav-buttons" onClick={() => navigate("/Interests")}> Interests </Button>
-
-        </div>
-
-  //</div>
-
+       </div>
   );
 }
 export default Homepage;

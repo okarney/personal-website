@@ -1,62 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .homepage {
   justify-content: center;
 }
+
 .homepage-content {
+  margin: 0;
   background-color: #FFFEF8;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(0, 61, 147);
 }
-.homepage-content img {
+
+.olivia-logo img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-top: 0;
+  margin-top: 2%;
+  margin-bottom: 0;
 }
+
+
+
 .nav-buttons {
-  /* background-color: #2a67e1;
-  display: flex;
-  padding: 0 10x;
+  margin: 10%;
+  height: 60%;
+  width: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  padding: 7 30px;
+  outline: none;
+  border: none !important;
+  border-radius: 20px;
+  cursor: pointer;
+  background: transparent;
+  background:linear-gradient(#FFFEF8,#FFFEF8) ;
+  box-shadow: 0 2px 15px #00309B;
+  color:#00309B !important;
 
-  font-size: calc(10px + 2vmin);
-  color: white; */
-
-  padding: 7x 30px;
-    margin-right: 15px;
-    outline: none;
-    border: 1.5px solid #9285aa;
-    border-radius: 20px;
-    color: #645cc1;
-    background:#2b4ccf;
-    box-shadow: 0 2px 15px rgba(115, 96, 201, 0.26);
-    color:#ffffff;
 }
-
-
 
