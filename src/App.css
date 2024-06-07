@@ -35,3 +35,39 @@
 
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00309B;
+  color: white;
+  text-align: center;
+}
+
+.footer img{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 2%;
+  width: 2%;
+
+}
+
+.icon-buttons {
+  margin-top: 0.05%;
+  height: 10%;
+  width: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  padding: 7 30px;
+  outline: none;
+  border: none !important;
+  border-radius: 20px;
+  cursor: pointer;
+  background: transparent;
+  background:linear-gradient(#00309B,#00309B) ;
+  color:#00309B !important;
+
+}
+
