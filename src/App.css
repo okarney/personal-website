@@ -24,13 +24,20 @@
   justify-content: center;
 }
 .homepage-content {
+  background-color: #FFFEF8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 61, 147);
+}
+.homepage-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 0;
 }
 .nav-buttons {
   /* background-color: #2a67e1;
