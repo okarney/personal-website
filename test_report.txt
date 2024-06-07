@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (58 ms)
+  ✕ renders learn react link (63 ms)
 
   ● renders learn react link
 
@@ -38,34 +38,68 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"homepage-content"[39m
         [36m>[39m
-          [36m<img[39m
-            [33malt[39m=[32m"logo"[39m
-            [33mclass[39m=[32m"fram"[39m
-            [33mid[39m=[32m"image"[39m
-            [33msrc[39m=[32m"OliviaLogo.png"[39m
-          [36m/>[39m
-          [0m              [0m
-          [36m<span>[39m
-            [0mHomepage hello!![0m
-          [36m</span>[39m
-          [36m<button[39m
-            [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
-            [33mtype[39m=[32m"button"[39m
+          [36m<div>[39m
+            [36m<br />[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"olivia-logo"[39m
           [36m>[39m
-            [0m About [0m
-          [36m</button>[39m
-          [36m<button[39m
-            [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
-            [33mtype[39m=[32m"button"[39m
+            [36m<img[39m
+              [33malt[39m=[32m"logo"[39m
+              [33mclass[39m=[32m"fram"[39m
+              [33mid[39m=[32m"image"[39m
+              [33msrc[39m=[32m"OliviaLogo.png"[39m
+            [36m/>[39m
+          [36m</div>[39m
+          [36m<br />[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"container"[39m
           [36m>[39m
-            [0m Projects [0m
-          [36m</button>[39m
-          [36m<button[39m
-            [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
-            [33mtype[39m=[32m"button"[39m
-          [36m>[39m
-            [0m Interests [0m
-          [36m</button>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"row"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m About [0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m Projects [0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m Interests [0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"nav-buttons btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m Resume [0m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -91,21 +125,21 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   14.28 |        0 |      20 |   14.28 |                   
+All files            |   13.63 |        0 |   18.18 |   13.63 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
-  index.tsx          |       0 |      100 |     100 |       0 | 7-19              
+  index.tsx          |       0 |      100 |     100 |       0 | 11-23             
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Components      |   22.22 |      100 |   14.28 |   22.22 |                   
+ src/Components      |      20 |      100 |    12.5 |      20 |                   
   About.tsx          |       0 |      100 |       0 |       0 | 5-7               
-  Homepage.tsx       |      40 |      100 |      25 |      40 | 21-23             
+  Homepage.tsx       |   33.33 |      100 |      20 |   33.33 | 32-42             
   Interests.tsx      |       0 |      100 |       0 |       0 | 6                 
   Projects.tsx       |       0 |      100 |       0 |       0 | 9                 
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.967 s
+Time:        3.03 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
