@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (63 ms)
+  ✕ renders learn react link (70 ms)
 
   ● renders learn react link
 
@@ -100,6 +100,38 @@ FAIL src/App.test.tsx
               [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"footer"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mhref[39m=[32m"https://www.linkedin.com/in/olivia-karney/"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"icon-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"logo"[39m
+                  [33msrc[39m=[32m"linkedin_icon.png"[39m
+                  [33mstyle[39m=[32m"height: 30px; width: 30px;"[39m
+                [36m/>[39m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mhref[39m=[32m"https://github.com/okarney"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"icon-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"logo"[39m
+                  [33msrc[39m=[32m"github_icon.png"[39m
+                  [33mstyle[39m=[32m"height: 30px; width: 30px;"[39m
+                [36m/>[39m
+              [36m</button>[39m
+            [36m</a>[39m
+          [36m</div>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -132,14 +164,14 @@ All files            |   13.63 |        0 |   18.18 |   13.63 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      20 |      100 |    12.5 |      20 |                   
   About.tsx          |       0 |      100 |       0 |       0 | 5-7               
-  Homepage.tsx       |   33.33 |      100 |      20 |   33.33 | 32-42             
+  Homepage.tsx       |   33.33 |      100 |      20 |   33.33 | 34-44             
   Interests.tsx      |       0 |      100 |       0 |       0 | 6                 
   Projects.tsx       |       0 |      100 |       0 |       0 | 9                 
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.03 s
+Time:        3.031 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
