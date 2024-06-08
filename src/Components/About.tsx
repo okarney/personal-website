@@ -4,8 +4,7 @@ import linkedinIcon from "./linkedin_icon.png";
 import githubIcon from "./github_icon.png";
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import periwinkle from "./CornerPeriwinkle.png";
-import blue from "./CornerBlue.png";
+
 
 
 function About() {
