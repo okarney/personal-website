@@ -13,13 +13,20 @@ function About() {
     
     return (
       <div className="about-content">
+          {/* <div style={{fontSize: 1, backgroundColor:"#00309B"}}>
+            <br></br>
+          </div> */}
+
           <div className="olivia-logo-corner">
+
   
-              <img src = {oliviaLogoCorner} alt = "logo" id = "image" className='fram'/>         
-                  <Button className="nav-buttons-header-about" onClick={() => navigate("/About")}> About </Button>
+              {/* <img src = {oliviaLogoCorner} alt = "logo" id = "image" className='fram'/>          */}
+                  <Button className="nav-buttons-header" onClick={() => navigate("/Homepage")}> Home </Button>
+                  <Button className="nav-buttons-header" onClick={() => navigate("/About")}> About </Button>
                   <Button className="nav-buttons-header" onClick={() => navigate("/Projects")}> Projects </Button>      
                   <Button className="nav-buttons-header" onClick={() => navigate("/Interests")}> Interests </Button>
                   <Button className="nav-buttons-header" onClick={() => navigate("/Resume")}> Resume </Button>
+          
           </div> 
           
         <div style={{fontSize: 1, backgroundColor:"#00309B"}}>
