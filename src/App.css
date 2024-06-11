@@ -19,7 +19,6 @@
 
 
 .nav-buttons {
-  position:fixed;
   margin: 10%;
   height: 60%;
   width: 90%;
@@ -115,8 +114,10 @@
 }
 
 .olivia-logo-corner {
+  width: 100%;
   background-color: #FFFEF8;
   margin-left: 0;
+  position: fixed;
 
 }
 
@@ -132,6 +133,7 @@
 
 .about-columns {
   margin-left: 20%;
+  margin-top: 5%;
 }
 
 .corner-button {

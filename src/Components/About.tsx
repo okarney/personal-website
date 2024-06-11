@@ -26,6 +26,10 @@ function About() {
                   <Button className="nav-buttons-header" onClick={() => navigate("/Interests")}> Interests </Button>
                   <Button className="nav-buttons-header" onClick={() => navigate("/Resume")}> Resume </Button>
           
+                  <div style={{fontSize: 1, backgroundColor:"#00309B"}}>
+                      <br></br>
+                  </div>
+          
           </div> 
           
         <div style={{fontSize: 1, backgroundColor:"#00309B"}}>

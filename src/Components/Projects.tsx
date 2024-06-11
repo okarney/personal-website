@@ -27,11 +27,13 @@ function Projects() {
                   <Button className="nav-buttons-header" onClick={() => navigate("/Interests")}> Interests </Button>
                   <Button className="nav-buttons-header" onClick={() => navigate("/Resume")}> Resume </Button>
           
+                  <div style={{fontSize: 1, backgroundColor:"#00309B"}}>
+                      <br></br>
+                  </div>
+
           </div> 
           
-        <div style={{fontSize: 1, backgroundColor:"#00309B"}}>
-          <br></br>
-        </div>
+        
 
         <br></br>
 
@@ -42,8 +44,18 @@ function Projects() {
 
           <Row>
             <Col>
-                <h5 style={{color: "#00309B"}}>Career Explorer (Project Manager)</h5>
+                <h5 style={{color: "#00309B"}}>Career Explorer <i>(Project Manager)</i></h5>
+                
+                <h6 style={{color: 'black'}}><i>Tech Stack: Typescript, React, node.js, HTML, CSS</i></h6>
                 For this project, I led my team of four students to create a front-end web application. This application used ChatGPT to provide users with organized career reports that suggested careers that would be a good fit based on their answers to a series of questions.
+            
+                <br></br>
+
+                Features:
+
+                <br></br>
+
+            
             </Col>
             
             <Col>
