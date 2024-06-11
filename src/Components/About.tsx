@@ -1,5 +1,4 @@
 import '../App.css';
-import oliviaLogoCorner from "./OliviaLogoCorner.png";
 import linkedinIcon from "./linkedin_icon.png";
 import githubIcon from "./github_icon.png";
 import { Button, Col, Container, Row } from 'react-bootstrap';
