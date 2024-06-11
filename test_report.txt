@@ -26,7 +26,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (68 ms)
+  ✕ renders learn react link (86 ms)
 
   ● renders learn react link
 
@@ -157,21 +157,21 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   11.53 |        0 |   13.33 |   11.53 |                   
+All files            |    9.09 |        0 |    9.52 |    9.09 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 11-23             
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Components      |   14.28 |      100 |    8.33 |   14.28 |                   
-  About.tsx          |       0 |      100 |       0 |       0 | 12-22             
+ src/Components      |    9.52 |      100 |    5.55 |    9.52 |                   
+  About.tsx          |       0 |      100 |       0 |       0 | 11-27             
   Homepage.tsx       |   33.33 |      100 |      20 |   33.33 | 34-44             
   Interests.tsx      |       0 |      100 |       0 |       0 | 6                 
-  Projects.tsx       |       0 |      100 |       0 |       0 | 9                 
+  Projects.tsx       |       0 |      100 |       0 |       0 | 11-28             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.076 s
+Time:        3.111 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
